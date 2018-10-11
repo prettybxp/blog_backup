@@ -4,7 +4,7 @@ Theme URI: https://wordpress.org/themes/twentyseventeen/
 Author: the WordPress team
 Author URI: https://wordpress.org/
 Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
-Version: 1.4
+Version: 1.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: twentyseventeen
@@ -501,7 +501,7 @@ i {
 	font-style: italic;
 }
 
-blockquote {
+/*blockquote {
 	color: #666;
 	font-size: 18px;
 	font-size: 1.125rem;
@@ -510,13 +510,16 @@ blockquote {
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
+}*/
+blockquote {
+	padding: 15px 20px;
+        margin: 0 0 25px;
+        border-left: 5px solid #00a3cf;
+        background: #f6f6f6;
 }
 
-blockquote cite {
-	display: block;
-	font-style: normal;
-	font-weight: 600;
-	margin-top: 0.5em;
+blockquote p {
+	margin: 0;
 }
 
 address {
@@ -1178,6 +1181,7 @@ a:active {
 
 .entry-content a,
 .entry-summary a,
+.comment-content a,
 .widget a,
 .site-footer .widget-area a,
 .posts-navigation a,
@@ -1225,6 +1229,8 @@ a .nav-title,
 .entry-content a:hover,
 .entry-summary a:focus,
 .entry-summary a:hover,
+.comment-content a:focus,
+.comment-content a:hover,
 .widget a:focus,
 .widget a:hover,
 .site-footer .widget-area a:focus,
@@ -1276,6 +1282,7 @@ a:hover .nav-title,
 
 /* Fixes linked images */
 .entry-content a img,
+.comment-content a img,
 .widget a img {
 	-webkit-box-shadow: 0 0 0 8px #fff;
 	box-shadow: 0 0 0 8px #fff;
@@ -3349,20 +3356,20 @@ p > object:only-child {
 	/* Layout */
 
 	.wrap {
-		max-width: 1000px;
+		max-width: 1200px;
 		padding-left: 3em;
 		padding-right: 3em;
 	}
 
 	.has-sidebar:not(.error404) #primary {
 		float: left;
-		width: 58%;
+		width: 70%;
 	}
 
 	.has-sidebar #secondary {
 		float: right;
 		padding-top: 0;
-		width: 36%;
+		width: 24%;
 	}
 
 	.error404 #primary {
@@ -3458,7 +3465,7 @@ p > object:only-child {
 	}
 
 	.navigation-top .wrap {
-		max-width: 1000px;
+		max-width: 1200px;
 		/* The font size is 14px here and we need 50px padding in ems */
 		padding: 0.75em 3.4166666666667em;
 	}
@@ -3519,7 +3526,7 @@ p > object:only-child {
 	}
 
 	.main-navigation a {
-		padding: 1em 1.25em;
+		padding: .5em 1.25em;
 	}
 
 	.main-navigation ul ul {
@@ -4305,3 +4312,29 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+.pd-20 { padding: 20px!important; }
+
+.go-top {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 1000;
+  display: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #f1f1f1;
+  border-radius: 50%;
+  color: #999;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/*code {
+  padding: 1px 3px;
+  margin: 0 3px;
+  background: #ddd;
+  border: 1px solid #ccc;
+}*/
