@@ -1,0 +1,144 @@
+# Translation of Themes - Chilly in Chinese (China)
+# This file is distributed under the same license as the Themes - Chilly package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-31 08:06:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Chilly\n"
+
+#. Theme Name of the plugin/theme
+msgid "Chilly"
+msgstr "Chilly"
+
+#. Description of the plugin/theme
+msgid "Chilly is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, corporations, or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. For more details, visit this link https://wordpress.org/themes/spicepress/. We hope you will find the chilly theme useful."
+msgstr "Chilly是一个响应式，多功能的WordPress主题。灵活的它，适合显示机构、博客、商业、公司或作品集。定制是容易和直接的，提供的选项能让您设置您的站点，以完全符合您所期望的在线存在。请访问此链接https://wordpress.org/themes/spicepress/。我们希望您会发现Chilly主题有用。"
+
+#: 404.php:14
+msgid "Oops! Page not found"
+msgstr "出错了！未找到页面"
+
+#: 404.php:15
+msgid "4"
+msgstr "4"
+
+#: 404.php:16
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "非常抱歉，您正在找的页面不存在。"
+
+#: 404.php:17
+msgid "Go Back"
+msgstr "返回"
+
+#: content.php:35 functions.php:222 template/template-page-full-width.php:29
+msgid "Read More"
+msgstr "阅读更多"
+
+#: functions.php:31
+msgid "Slider settings"
+msgstr "幻灯器设置"
+
+#: functions.php:39
+msgid "Enable slider"
+msgstr "启用幻灯"
+
+#: functions.php:43
+msgid "ON"
+msgstr "激活"
+
+#: functions.php:44
+msgid "OFF"
+msgstr "禁用"
+
+#: functions.php:59
+msgid "Image"
+msgstr "图像"
+
+#: functions.php:74
+msgid "Enable slider image overlay"
+msgstr "启用幻灯片图像叠加"
+
+#: functions.php:87
+msgid "Slider image overlay color"
+msgstr "幻灯片图像叠加"
+
+#: functions.php:95
+msgid "Welcome to Chilly Theme"
+msgstr "欢迎使用Chilly主题"
+
+#: functions.php:100
+msgid "Title"
+msgstr "标题"
+
+#: functions.php:112
+msgid "Description"
+msgstr "描述"
+
+#: functions.php:120
+msgid "Read more"
+msgstr "阅读更多"
+
+#: functions.php:125
+msgid "Button Text"
+msgstr "按钮文字"
+
+#: functions.php:132
+msgid "#"
+msgstr "井"
+
+#: functions.php:137
+msgid "Button Link"
+msgstr "按钮链接"
+
+#: functions.php:150
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#: functions.php:231
+msgid "Banner setting"
+msgstr "横幅设置"
+
+#: functions.php:243
+msgid "Banner image remove from all pages"
+msgstr "从所有页面删除横幅图像"
+
+#: search.php:29
+msgid "Nothing found"
+msgstr "未找到"
+
+#: search.php:30
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "业务模板"
+
+#. Template Name of the plugin/theme
+msgid "About Us"
+msgstr "关于我们"
+
+#. Template Name of the plugin/theme
+msgid "Contact page"
+msgstr "联系页面"
+
+#. Template Name of the plugin/theme
+msgid "Full-width page"
+msgstr "全宽页面"
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/chilly-wordpress-theme/"
+msgstr "https://spicethemes.com/chilly-wordpress-theme/"
+
+#. Author of the plugin/theme
+msgid "spicethemes.com"
+msgstr "spicethemes.com"
+
+#. Author URI of the plugin/theme
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
