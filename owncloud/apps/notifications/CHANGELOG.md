@@ -1,0 +1,26 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
+
+## [0.3.2]
+### Fixed
+- Fix login page URL detection which caused trouble with shibboleth users - [#122](https://github.com/owncloud/notifications/issues/122)
+
+## [0.3.1]
+### Added
+- Notifications can now have an icon - [#104](https://github.com/owncloud/notifications/issues/104)
+- Added occ command to send notification to a user or a grouop - [#104](https://github.com/owncloud/notifications/issues/104)
+
+### Fixed
+- Make sure buttons stays in place even with long messages - [#114](https://github.com/owncloud/notifications/issues/114)
+- Don't escape link text title - [#111](https://github.com/owncloud/notifications/issues/111)
+- Fix actions and escaping - [#109](https://github.com/owncloud/notifications/issues/109)
+- Move OCS calls to app framework - consumes less resources - [#98](https://github.com/owncloud/notifications/pull/98)
+- Don't use escaped message for browser notification - [#100](https://github.com/owncloud/notifications/pull/100)
+
+[Unreleased]: https://github.com/owncloud/core/compare/v10.0.4...stable10
+[0.3.2]: https://github.com/owncloud/core/compare/v10.0.3...v10.0.4
+[0.3.1]: https://github.com/owncloud/core/compare/v10.0.2...v10.0.4RC2
+
